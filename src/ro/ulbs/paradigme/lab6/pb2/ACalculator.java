@@ -7,6 +7,10 @@ public abstract class ACalculator
     {
         return state;
     }
+    public Object getState() {
+        return state;
+    }
+
     public void clear()
     {
         state = null;
